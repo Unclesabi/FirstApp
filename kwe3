@@ -1,0 +1,62 @@
+
+Action: Perfect! I now have all the integration playbooks and project structure. Let me create a comprehensive plan for building this high-class fashion house platform.
+
+## Project Overview
+Building a full-featured fashion house platform with:
+- Customer portal: Profile with body measurements, custom dress orders, ready-to-wear shopping
+- Admin panel: Order management, progress tracking, tailor task assignment
+- Authentication: Emergent Google OAuth
+- Payment: Stripe integration for ready-to-wear purchases
+
+## Key Collections Needed:
+1. users - Customer profiles with role (customer/admin/tailor)
+2. user_sessions - Auth sessions
+3. body_measurements - Customer measurements (comprehensive + custom fields)
+4. custom_orders - Custom dress orders with progress tracking
+5. ready_to_wear - Ready-to-wear dress inventory
+6. order_items - Shopping cart and orders for ready-to-wear
+7. progress_updates - Detailed progress with photos for custom orders
+8. tailors - Tailor profiles
+9. task_assignments - Tasks assigned to tailors
+10. payment_transactions - Stripe payment records
+
+## Features to Implement:
+
+### Customer Features:
+1. Google OAuth login
+2. Profile with comprehensive body measurements (+ ability to add custom)
+3. Browse ready-to-wear catalog
+4. Add to cart and checkout with Stripe
+5. Request custom dress orders
+6. Track custom dress progress (status + detailed updates with photos)
+7. Order history
+
+### Admin Features:
+1. Dashboard with overview
+2. Manage ready-to-wear inventory (CRUD)
+3. View all custom orders
+4. Update custom order status and add progress updates with photos
+5. Assign tasks to tailors
+6. View all customers and their measurements
+7. Manage tailors
+
+### Tailor Features:
+1. View assigned tasks
+2. Update task status
+
+## Tech Stack:
+- Backend: FastAPI + MongoDB
+- Frontend: React + Tailwind + Shadcn UI
+- Auth: Emergent Google OAuth
+- Payments: Stripe
+
+## Design Approach:
+- High-end luxury fashion aesthetic
+- Elegant color scheme (avoid dark gradients)
+- Use fonts: Playfair Display for headings, Manrope for body
+- Professional, sophisticated UI with subtle animations
+- Clean, spacious layouts
+
+Let me start implementing this step by step.
+
+Observation: Your thought has been logged.
